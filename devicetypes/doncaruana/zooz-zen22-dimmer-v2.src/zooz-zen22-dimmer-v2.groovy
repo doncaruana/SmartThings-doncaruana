@@ -61,7 +61,7 @@ metadata {
 	preferences {
 		input "ledIndicator", "bool", title: "LED on when light on", description: "LED will be on when light OFF if not set", required: false, defaultValue: false
 		input "invertSwitch", "bool", title: "Invert Switch", description: "Flip switch upside down", required: false, defaultValue: false
-		input "ledDisable", "bool", title: "LED Diabled", description: "Turn off LED completely", required: false, defaultValue: false
+		input "ledDisable", "bool", title: "LED Disabled", description: "Turn off LED completely", required: false, defaultValue: false
   }
 
 	tiles(scale: 2) {
